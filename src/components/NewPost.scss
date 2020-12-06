@@ -1,0 +1,68 @@
+.newPost {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #5c00b8;
+  color: #dbdbdb;
+  padding: 5px;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 3px solid #a3a3a3;
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    resize: none;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    button {
+      background-color: #5c00b8;
+      color: #dbdbdb;
+      border: 2px solid #dbdbdb;
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 1.5em;
+      padding: 3px;
+      width: 100px;
+      align-self: flex-end;
+      &:hover,
+      &:focus {
+        transition-duration: 0.6s;
+        background-color: #bf80ff;
+        color: #000000;
+        border-color: #000000;
+      }
+    }
+    label {
+      color: #dbdbdb;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    textarea {
+      border: 2px solid #a3a3a3;
+      padding: 5px;
+      &:hover,
+      &:focus {
+        transition-duration: 0.6s;
+        border-color: #000000;
+      }
+    }
+    input {
+      margin-bottom: 5px;
+      &[type="file"] {
+        &:hover,
+        &:focus {
+          outline: 1px solid #000000;
+        }
+      }
+    }
+    progress {
+      margin-bottom: 5px;
+    }
+  }
+}

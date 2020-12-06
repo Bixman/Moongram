@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Times New Roman", Helvetica, serif;
+  outline: none;
+}
+@font-face {
+  font-family: siteName;
+  src: url(Yellowtail-Regular.ttf);
+}
+
+body {
+  background-color: #e6ccff;
+}
+
+@media only screen and (max-width: 950px) {
+  .app {
+    &__content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    &__sideBarLeft {
+      min-width: 200px;
+    }
+  }
+}
+@media only screen and (min-width: 950px) {
+  .app {
+    &__content {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+    }
+    &__sideBarLeft {
+      min-width: 300px;
+    }
+    &__gallery {
+      min-width: 300px;
+    }
+  }
+}
+
+.app {
+  &__posts {
+    min-width: 350px;
+    h3 {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5px;
+    }
+    p {
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 5px;
+      background-color: #5c00b8;
+      padding: 5px;
+      border-radius: 15px;
+      border: 2px solid #a3a3a3;
+      max-width: 640px;
+      color: #dbdbdb;
+    }
+  }
+  &__zeroOwnPosts {
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 15px;
+    }
+  }
+}
+
+.material-icons {
+  font-size: 32px;
+  margin-left: 5px;
+}

@@ -1,0 +1,28 @@
+.sideRight {
+  position: sticky;
+  top: 75px;
+  left: 100%;
+  background-color: #5c00b8;
+  margin-left: 5%;
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 15px 0 0 15px;
+  border: 2px solid #a3a3a3;
+  color: #dbdbdb;
+  h2 {
+    color: #dbdbdb;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

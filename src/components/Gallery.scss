@@ -1,0 +1,21 @@
+.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #5c00b8;
+  padding: 5px;
+  border-radius: 15px;
+  border: 2px solid #a3a3a3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  max-width: 640px;
+  color: #dbdbdb;
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+  }
+}

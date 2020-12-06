@@ -1,0 +1,27 @@
+.sideLeft {
+  position: sticky;
+  top: 75px;
+  left: 0%;
+  margin-right: 5%;
+  padding: 5px;
+  margin-top: 20px;
+  button {
+    width: 100%;
+    background-color: #5c00b8;
+    font-size: 1.5em;
+    color: #dbdbdb;
+    border-radius: 0 15px 15px 0;
+    border: 2px solid #a3a3a3;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      transition-duration: 0.6s;
+      background-color: #bf80ff;
+      color: #000000;
+      border-color: #000000;
+    }
+  }
+}

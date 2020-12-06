@@ -1,0 +1,37 @@
+.miniImg {
+  &__single {
+    width: 125px;
+    height: 125px;
+    margin: 5px;
+    object-fit: cover;
+    border: 2px solid #a3a3a3;
+    cursor: pointer;
+  }
+  &__singleBig {
+    @media only screen and (max-width: 950px) {
+      max-width: 95vw;
+      max-height: 95vh;
+    }
+    max-width: 85vw;
+    max-height: 85vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #a3a3a3;
+  }
+  &__closeBig {
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    font-size: 2vh;
+    background-color: #5c00b8;
+    border: 2px solid #a3a3a3;
+    color: #a3a3a3;
+    outline: none;
+    &:hover,
+    &:focus {
+      background-color: #bf80ff;
+      border: 2px solid #5c00b8;
+      color: #5c00b8;
+    }
+  }
+}
