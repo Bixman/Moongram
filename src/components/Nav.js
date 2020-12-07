@@ -294,7 +294,7 @@ function Nav(props) {
               onChange={e => setEmail(e.target.value)}
             />
             <input
-              placeholder="Hasło (max 10 znaków)"
+              placeholder="Hasło"
               type="password"
               maxLength="10"
               value={password}
